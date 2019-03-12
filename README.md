@@ -7,4 +7,4 @@ Face recognition with Haar-Cascade-Classifier and OpenCV. <br />
 <b>Assumption:</b> Debian/Ubuntu based computer with installed Python 3. How to install Python and the dependencies you can take a look at this https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world and go through it for the first feeling.
 
 ### Install missing packages with Pip
-To install the missing packages you need to open Python in your terminal inside the folder you download from this repository. Then type in: ```pip install -r requirements.txt```
+To install the missing packages you need to open Python in your terminal inside the folder you download from this repository. Then type in: ```me@debian: pip install -r requirements.txt```
