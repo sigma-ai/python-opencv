@@ -4,14 +4,12 @@ import numpy as np
 
 #calculate euclid distance between two vectors
 #important to use numpy array as vector
-#source: https://stackoverflow.com/questions/1401712/how-can-the-euclidean-distance-be-calculated-with-numpy/21986532
 def euclid_distance(a,b):
     distance = np.linalg.norm(a-b)
 
     return distance
 
-#source: dotproduct divided by product of each norm of two vectors
-# https://stackoverflow.com/questions/18424228/cosine-similarity-between-2-number-lists
+#the cosine similarity is defined as the dotproduct divided by product of each norm of two vectors
 def cosine_similarity(a,b):
     cos_sim = np.dot(a, b)/( np.linalg.norm(a) * np.linalg.norm(b))
 
