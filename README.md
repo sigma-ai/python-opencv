@@ -8,3 +8,7 @@ Face recognition with Haar-Cascade-Classifier and OpenCV. <br />
 
 ### Install missing packages with Pip
 To install the missing packages you need to open Python in your terminal inside the folder you download from this repository. Then type in: ```me@debian: pip install -r requirements.txt```
+
+#### Security issues
+An alert for the used package urlib, this need to fix as soon as possible!
+When this issue is fixed, please consider to delete these two lines!
